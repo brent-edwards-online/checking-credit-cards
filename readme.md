@@ -2,7 +2,7 @@
 
 ## By Brent Edwards
 
-This solution contains a working program. When it is run you will be able to enter individual credit card numbers at the prompt. Alternately you can enter 'f' at the prompt and you will be given the option to enter the full path to a file containing a list of credit cards. The application will process and validate all numbers in the list.
+This solution contains a working program. When it is run you will be able to enter individual credit card numbers at the prompt for processing and validation. Alternately you can enter 'f' at the prompt and you will be given the option to enter the full path to a file containing a list of credit cards. The application will then process and validate all numbers in the list.
 
 ## Introduction
 
