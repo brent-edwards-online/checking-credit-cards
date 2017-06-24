@@ -2,6 +2,8 @@
 
 ## By Brent Edwards
 
+This solution contains a working program. When it is run you will be able to enter individual credit card numbers at the prompt. Alternatly you can enter 'f' at the prompt and then enter the full path to file containing a list of credit cards and the application will process and validate all numbers in the list.
+
 ## Introduction
 
 Develop the ideas of how to validate Credit Cards. The solution can be a full application, skeleton methods or pseudocode.
