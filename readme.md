@@ -14,17 +14,18 @@ Before submitting a credit card to a payment gateway it's important that we run 
 
 A common check that is performed upfront is to validate the card type based on the starting digits and length of card number. The main patterns that we care about are as follows:
 
-+============+=============+===============+
-| Card Type  | Begins With | Number Length |
-+============+=============+===============+
-| AMEX       | 34 or 37    | 15            |
-+------------+-------------+---------------+
-| Discover   | 6011        | 16            |
-+------------+-------------+---------------+
-| MasterCard | 51-55       | 16            |
-+------------+-------------+---------------+
-| Visa       | 4           | 13 or 16      |
-+------------+-------------+---------------+
+    +============+=============+===============+
+    | Card Type  | Begins With | Number Length |
+    +============+=============+===============+
+    | AMEX       | 34 or 37    | 15            |
+    +------------+-------------+---------------+
+    | Discover   | 6011        | 16            |
+    +------------+-------------+---------------+
+    | MasterCard | 51-55       | 16            |
+    +------------+-------------+---------------+
+    | Visa       | 4           | 13 or 16      |
+    +------------+-------------+---------------+
+	
 All of these card types also generate numbers such that they can be validated by the Luhn algorithm, so that's the second check systems usually try. The steps are:
 
 Starting with the next to last digit and continuing with every other digit going back to the beginning of the card, double the digit
