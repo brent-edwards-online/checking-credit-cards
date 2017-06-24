@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckingCreditCards", "CheckingCreditCards\CheckingCreditCards.csproj", "{957AA67F-237C-400D-96E5-7E2D9604D665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckingCreditCardsTest", "CheckingCreditCardsTest\CheckingCreditCardsTest.csproj", "{1C234702-DE90-4307-BD71-823B3EA94994}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{CA667624-DC23-4C53-9CC4-D72E020C6698}"
+	ProjectSection(SolutionItems) = preProject
+		creditcards.txt = creditcards.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{957AA67F-237C-400D-96E5-7E2D9604D665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957AA67F-237C-400D-96E5-7E2D9604D665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957AA67F-237C-400D-96E5-7E2D9604D665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957AA67F-237C-400D-96E5-7E2D9604D665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C234702-DE90-4307-BD71-823B3EA94994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C234702-DE90-4307-BD71-823B3EA94994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C234702-DE90-4307-BD71-823B3EA94994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C234702-DE90-4307-BD71-823B3EA94994}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
