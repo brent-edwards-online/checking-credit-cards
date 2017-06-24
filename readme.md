@@ -1,12 +1,14 @@
-#Checking Credit Cards
+# Checking Credit Cards
 
-##Introduction
+## By Brent Edwards
+
+## Introduction
 
 Develop the ideas of how to validate Credit Cards. The solution can be a full application, skeleton methods or pseudocode.
 
 There is provided sample data to be used for testing and to show examples of results.
 
-##Problem
+## Problem
 
 Before submitting a credit card to a payment gateway it's important that we run some sanity checks on the number.
 
@@ -42,7 +44,7 @@ Let's try one more, 4417 1234 5678 9112:
 3 69 % 10 != 0
 This card is not valid.
 
-##Input and Output
+## Input and Output
 
 Given the following credit cards:
 
