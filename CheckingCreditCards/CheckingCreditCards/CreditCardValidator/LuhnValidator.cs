@@ -14,14 +14,14 @@ namespace CheckingCreditCards.CreditCardValidator
         {
             int result = 0;
 
-            if(cardNumber.Length == 0)
+            var reversed = cardNumber.Replace(" ", String.Empty).ToCharArray().Reverse().ToArray();
+
+            if (reversed.Length == 0)
             {
                 return false;
             }
 
-            var reversed = cardNumber.ToCharArray().Reverse().ToArray();
-
-            for(var idx = 0; idx < reversed.Length; idx++)
+            for (var idx = 0; idx < reversed.Length; idx++)
             {
                 char character = reversed[idx];
                 

@@ -38,6 +38,9 @@ namespace CheckingCreditCardsTest
 
             result = validator.IsValid("5105105105105100");
             Assert.IsTrue(result);
+
+            result = validator.IsValid("5105 1051 0510 5100");
+            Assert.IsTrue(result);
         }
 
         [TestMethod]
@@ -65,6 +68,9 @@ namespace CheckingCreditCardsTest
             Assert.IsFalse(result);
 
             result = validator.IsValid("a105105105105100");
+            Assert.IsFalse(result);
+
+            result = validator.IsValid("5105 1051 0510 5106");
             Assert.IsFalse(result);
         }
     }
