@@ -1,5 +1,4 @@
 ﻿using CheckingCreditCards.CreditCardValidator;
-using System.Text;
 
 namespace CheckingCreditCards.CardType
 {
